@@ -24,17 +24,17 @@ def display_message(message):
 
 @rainbowhat.touch.A.press()
 def press_a(channel):
-    display_message("AHOY")
+    display_message("TEST")
     rainbowhat.lights.rgb(1,0,0)
 
 @rainbowhat.touch.B.press()
 def press_b(channel):
-    display_message("YARR")
+    display_message("TEST")
     rainbowhat.lights.rgb(0,1,0)
 
 @rainbowhat.touch.C.press()
 def press_c(channel):
-    display_message("GROG")
+    display_message("0123")
     rainbowhat.lights.rgb(0,0,1)
 
 note_index = 0
@@ -42,7 +42,7 @@ note_index = 0
 current_time = 0
 last_time = time.time()
 
-display_message("WJDK")
+display_message("DONE")
 
 try:
     while True:
